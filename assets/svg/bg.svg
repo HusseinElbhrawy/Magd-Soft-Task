@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="702.882" height="795.705" viewBox="0 0 702.882 795.705">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="0.549" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.341"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.496" x2="0.496" y2="1.552" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_40" data-name="Group 40" transform="translate(145 -76)">
+    <g id="Group_39" data-name="Group 39">
+      <circle id="Ellipse_6" data-name="Ellipse 6" cx="123" cy="123" r="123" transform="translate(282 177)" fill="url(#linear-gradient)"/>
+      <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="123" cy="135.5" rx="123" ry="135.5" transform="translate(268 211)" fill="#0062bd"/>
+    </g>
+    <rect id="Rectangle_56" data-name="Rectangle 56" width="95" height="389" rx="47.5" transform="translate(154.159 76) rotate(50.268)" fill="#0059ab"/>
+    <rect id="Rectangle_57" data-name="Rectangle 57" width="95" height="389" rx="47.5" transform="translate(497.159 550) rotate(50.268)" fill="#0059ab"/>
+    <path id="Subtract" d="M100.714,734.488h0c.43-4.612.647-9.318.647-13.987,0-74.715-55.178-135.5-123-135.5-49.576,0-94.073,32.511-113.359,82.825a121.927,121.927,0,0,1,14.824-39.947,123.21,123.21,0,0,1,26.959-31.97A122.547,122.547,0,0,1-56.9,574.689,122.572,122.572,0,0,1-13.994,567a123.911,123.911,0,0,1,24.789,2.5,122.385,122.385,0,0,1,23.088,7.167,123.013,123.013,0,0,1,20.893,11.341,123.887,123.887,0,0,1,18.2,15.019A123.884,123.884,0,0,1,88,621.23,123.009,123.009,0,0,1,99.34,642.123a122.38,122.38,0,0,1,7.167,23.088,123.909,123.909,0,0,1,2.5,24.789A122.479,122.479,0,0,1,100.714,734.488Z" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>
