@@ -94,4 +94,12 @@ class LoginBloc extends Bloc<LoginEvent, LoginState> {
       );
     }
   }
+
+  @override
+  Future<void> close() {
+    nameController.dispose();
+    phoneController.dispose();
+    phoneFocusNode.dispose();
+    return super.close();
+  }
 }

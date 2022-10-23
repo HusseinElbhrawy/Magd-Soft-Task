@@ -83,4 +83,10 @@ class VerifyPhoneBloc extends Bloc<VerifyPhoneEvent, VerifyPhoneState> {
       ),
     );
   }
+
+  @override
+  Future<void> close() {
+    pinPutController.dispose();
+    return super.close();
+  }
 }
