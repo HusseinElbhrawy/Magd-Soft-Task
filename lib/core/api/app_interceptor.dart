@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:magd_soft_task/core/utils/app_strings.dart';
+import '../utils/app_strings.dart';
 
 class AppInterceptor extends Interceptor {
   @override

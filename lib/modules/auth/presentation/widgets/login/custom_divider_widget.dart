@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:magd_soft_task/core/utils/app_colors.dart';
-import 'package:magd_soft_task/core/utils/media_query_values.dart';
-import 'package:magd_soft_task/core/utils/values_managers.dart';
+
+import '../../../../../core/utils/app_colors.dart';
+import '../../../../../core/utils/media_query_values.dart';
+import '../../../../../core/utils/values_managers.dart';
 
 class CustomDividerWidget extends StatelessWidget {
   const CustomDividerWidget({

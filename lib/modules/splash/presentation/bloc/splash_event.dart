@@ -1,8 +1,12 @@
 part of 'splash_bloc.dart';
 
-abstract class SplashEvent extends Equatable {
-  const SplashEvent();
+class SplashEvent extends Equatable {
+  const SplashEvent({
+    required this.context,
+  });
+
+  final BuildContext context;
 
   @override
-  List<Object> get props => [];
+  List<Object> get props => [context];
 }

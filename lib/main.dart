@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:magd_soft_task/app.dart';
 
-void main() {
+import 'app/app.dart';
+import 'app/injector.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await initServiceLocator();
   runApp(MyApp());
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:magd_soft_task/core/utils/app_colors.dart';
-import 'package:magd_soft_task/core/utils/values_managers.dart';
+
+import '../../core/utils/app_colors.dart';
+import '../../core/utils/values_managers.dart';
 
 ThemeData darkTheme() {
   return ThemeData(

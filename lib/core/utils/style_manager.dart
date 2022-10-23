@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:magd_soft_task/core/utils/fonts_manager.dart';
+
+import 'fonts_manager.dart';
 
 TextStyle _getTextStyle(double fontSize, FontWeight fontWeight, Color color) =>
     TextStyle(

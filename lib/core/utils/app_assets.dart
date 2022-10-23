@@ -4,6 +4,11 @@ const String svgPath = 'assets/svg';
 class AppImageAssets {
   static String splashLogo = '$imagePath/logo.png';
   static String loginLogo = '$imagePath/login.png';
+  static String pageView1 = '$imagePath/acer.png';
+  static String pageView2 = '$imagePath/helios.png';
+  static String all = '$imagePath/all.png';
+  static String predatorLogo = '$imagePath/predator.png';
+  static String razerLogo = '$imagePath/razer.png';
 }
 
 class AppSvgAssets {

@@ -4,12 +4,13 @@ import 'dart:io';
 import 'package:dio/adapter.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:magd_soft_task/core/api/api_consumer.dart';
-import 'package:magd_soft_task/core/api/end_point.dart';
-import 'package:magd_soft_task/core/api/status_code.dart';
-import 'package:magd_soft_task/core/error/exceptions.dart';
 
+import '../../app/injector.dart';
+import '../error/exceptions.dart';
+import 'api_consumer.dart';
 import 'app_interceptor.dart';
+import 'end_point.dart';
+import 'status_code.dart';
 
 //! If we need to send lang or token , we send them in header like this
 /*
@@ -45,9 +46,9 @@ class DioConsumer implements ApiConsumer {
       ..sendTimeout = 60 * 1000
       ..receiveTimeout = 60 * 1000;
 
-    // client.interceptors.add(serviceLocator<AppInterceptor>());
+    client.interceptors.add(serviceLocator<AppInterceptor>());
 
-    // if (kDebugMode) client.interceptors.add(serviceLocator<LogInterceptor>());
+    if (kDebugMode) client.interceptors.add(serviceLocator<LogInterceptor>());
   }
 
   @override

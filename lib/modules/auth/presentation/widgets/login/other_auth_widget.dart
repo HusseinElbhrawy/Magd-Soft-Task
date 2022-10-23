@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:magd_soft_task/core/utils/app_colors.dart';
-import 'package:magd_soft_task/core/utils/app_strings.dart';
-import 'package:magd_soft_task/core/utils/constant.dart';
-import 'package:magd_soft_task/core/utils/media_query_values.dart';
-import 'package:magd_soft_task/core/utils/values_managers.dart';
-import 'package:magd_soft_task/modules/auth/presentation/widgets/login/custom_divider_widget.dart';
-import 'package:magd_soft_task/modules/auth/presentation/widgets/login/social_media_auth_button_widget.dart';
+
+import '../../../../../core/utils/app_colors.dart';
+import '../../../../../core/utils/app_strings.dart';
+import '../../../../../core/utils/constant.dart';
+import '../../../../../core/utils/media_query_values.dart';
+import '../../../../../core/utils/values_managers.dart';
+import 'custom_divider_widget.dart';
+import 'social_media_auth_button_widget.dart';
 
 class OtherAuthWidget extends StatelessWidget {
   const OtherAuthWidget({

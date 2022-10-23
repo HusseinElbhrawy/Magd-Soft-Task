@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:magd_soft_task/core/utils/app_colors.dart';
-import 'package:magd_soft_task/core/utils/values_managers.dart';
+import '../../core/utils/app_colors.dart';
+import '../../core/utils/values_managers.dart';
 
 ThemeData lightTheme() {
   return ThemeData(
@@ -47,8 +47,8 @@ ThemeData lightTheme() {
       ),
       errorStyle: const TextStyle(color: AppColors.error),
       border: OutlineInputBorder(
-        borderSide: BorderSide(
-          color: AppColors.grey,
+        borderSide: const BorderSide(
+          color: AppColors.white,
           width: AppSize.s1_5,
         ),
         borderRadius: BorderRadius.circular(
@@ -57,7 +57,7 @@ ThemeData lightTheme() {
       ),
       focusedBorder: OutlineInputBorder(
         borderSide: BorderSide(
-          color: AppColors.grey,
+          color: AppColors.grey.withOpacity(.5),
           width: AppSize.s1_5,
         ),
         borderRadius: BorderRadius.circular(
@@ -73,7 +73,15 @@ ThemeData lightTheme() {
           AppSize.s8,
         ),
       ),
-      enabledBorder: const OutlineInputBorder(),
+      enabledBorder: OutlineInputBorder(
+        borderSide: BorderSide(
+          color: AppColors.grey.withOpacity(.5),
+          width: AppSize.s1_5,
+        ),
+        borderRadius: BorderRadius.circular(
+          AppSize.s8,
+        ),
+      ),
       focusedErrorBorder: OutlineInputBorder(
         borderSide: BorderSide(
           color: AppColors.primary,
