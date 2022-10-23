@@ -1,16 +1,15 @@
-# magd_soft_task
+# Magd Soft Task
 
 A new Flutter project.
 
-## Getting Started
+## Screens 
 
-This project is a starting point for a Flutter application.
+![Apple iPhone 11 Pro Max Presentation](https://user-images.githubusercontent.com/64389727/197415964-7aa85463-03bf-4f26-852f-f6f4d4e0e518.png)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Features 
+1. Auth With Phone Number 
+2. Use Clean Architecture 
+3. Dio (HTTTP Request)
+4. Responsive Design 
+5. Animation 
